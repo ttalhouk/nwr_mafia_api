@@ -21412,3 +21412,18 @@ Processing by GamesController#index as HTML
   [1m[35mGame Load (3.1ms)[0m  SELECT "games".* FROM "games"
   [1m[36mPlayer Load (0.5ms)[0m  [1mSELECT "players".* FROM "players"[0m
 Completed 200 OK in 65ms (Views: 23.6ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/games" for ::1 at 2016-09-13 11:00:49 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (7.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (1.9ms)[0m  SELECT "games".* FROM "games"
+  [1m[36mPlayer Load (1.0ms)[0m  [1mSELECT "players".* FROM "players"[0m
+Completed 200 OK in 86ms (Views: 20.9ms | ActiveRecord: 22.2ms)
+
+
+Started GET "/games" for ::1 at 2016-09-13 11:01:04 -0700
+Processing by GamesController#index as HTML
+  [1m[35mGame Load (3.3ms)[0m  SELECT "games".* FROM "games"
+  [1m[36mPlayer Load (0.8ms)[0m  [1mSELECT "players".* FROM "players"[0m
+Completed 200 OK in 62ms (Views: 22.5ms | ActiveRecord: 4.1ms)
